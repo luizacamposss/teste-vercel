@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Shop Amigão 🐾</title>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f9ff; /* Azul bem clarinho */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff9900; /* Laranja vibrante */
+            color: white;
+            padding: 20px;
+            border-radius: 20px; /* Bordas arredondadas como uma patinha */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        .servicos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            border: 2px solid #ff9900;
+            width: 150px;
+            transition: transform 0.3s; /* Faz um efeito de balanço */
+        }
+
+        .card:hover {
+            transform: scale(1.1); /* O card cresce quando você passa o mouse! */
+        }
+
+        img {
+            width: 300px;
+            border-radius: 50%; /* Deixa a foto redondinha */
+            border: 5px solid white;
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🐶 Pet Shop Amigão 🐱</h1>
+        <p>Onde seu pet sai abanando o rabo!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Nossos Serviços Especiais:</h2>
+            <div class="servicos">
+                <div class="card">🧼 <br> Banho Cheiroso</div>
+                <div class="card">🦴 <br> Petiscos Grátis</div>
+                <div class="card">✂️ <br> Tosa Estilosa</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Um novo amigo te espera!</h2>
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300" alt="Cachorrinho fofo">
+        </section>
+    </main>
+
+    <footer>
+        <p>📍 Rua das Patinhas, nº 123 | 📞 (11) 98765-4321</p>
+    </footer>
+
+</body>
+</html>
